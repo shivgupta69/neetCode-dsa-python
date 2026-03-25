@@ -1,6 +1,6 @@
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
-        
+        ## the famous sudoku problem
         cols = defaultdict(set)
         rows = defaultdict(set)
         squares = defaultdict(set)
