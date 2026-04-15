@@ -12,8 +12,7 @@ class Solution:
 
             ## it adds all unique values into my set.
             hashset.add(n)
-
-        # if there is no duplicate value it returns false
+            
         return False
 
         ## time complexity = O(n)
