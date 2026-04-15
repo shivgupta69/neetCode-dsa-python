@@ -9,6 +9,5 @@ class Solution:
         
             if diff in prevMap:
                 return [prevMap[diff], i] 
-            ## if the difference is already persent in pervmap
-            ## it returns the index no of both values .
+        
             prevMap[n] = i 
