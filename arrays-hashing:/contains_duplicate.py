@@ -10,7 +10,6 @@ class Solution:
             if n in hashset:
                 return True
 
-            ## it adds all unique values into my set.
             hashset.add(n)
             
         return False
