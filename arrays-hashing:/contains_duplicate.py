@@ -4,7 +4,6 @@ class Solution:
         ## at first i have created a empty set which contains only unique values.
         hashset = set()
 
-        ## then i am using for loop to iterate through it.
         for n in nums:
 
             ## if my hashset has same value stored into it = returns true
