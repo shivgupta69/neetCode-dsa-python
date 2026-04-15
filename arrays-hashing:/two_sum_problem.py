@@ -3,8 +3,8 @@ class Solution:
         
         prevMap = {} 
 
-        for i, n in enumerate(nums): ## using for loop to get the
-        ## index no and value.
+        for i, n in enumerate(nums): 
+            
             diff = target - n  ## the provided target - value
         
             if diff in prevMap:
