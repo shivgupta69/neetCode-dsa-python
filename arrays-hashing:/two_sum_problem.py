@@ -1,7 +1,7 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         
-        prevMap = {} # it stores the value and index no.
+        prevMap = {} 
 
         for i, n in enumerate(nums): ## using for loop to get the
         ## index no and value.
