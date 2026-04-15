@@ -11,4 +11,4 @@ class Solution:
                 return [prevMap[diff], i] 
             ## if the difference is already persent in pervmap
             ## it returns the index no of both values .
-            prevMap[n] = i ## used to store value and index no in hashmap.
+            prevMap[n] = i 
